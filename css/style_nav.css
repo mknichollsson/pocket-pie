@@ -83,6 +83,7 @@ body {
 
 .hero-heading {
     font-size: 48px !important;
+    font-family: "Nunito Sans";;
     text-transform: uppercase !important;
     font-weight: 900 !important;
     letter-spacing: 4px;

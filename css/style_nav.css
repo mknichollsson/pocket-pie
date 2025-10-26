@@ -1,0 +1,108 @@
+
+body {
+  font-family: "Nunito Sans";
+  background-color: #fef3d9;
+  color: #a65518;
+}
+
+.navbar .nav-link {
+  color: #6b3e2e !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #d97e3a !important;
+}
+
+/* Also style the active/current page link */
+.navbar .nav-link.active {
+    color: #d97e3a !important;
+}
+
+.navbar .order-btn {
+  background-color: #d97e3a;
+  color: #fef3d9 !important;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar .order-btn:hover,
+.navbar .order-btn:focus {
+    background-color: #c06d2f !important;
+}
+
+/* Also style the active/current page link */
+.navbar .order-btn.active {
+    color: #c06d2f !important;
+}
+/* Change the hamburger icon color */
+.navbar-toggler {
+    border-color: #A65518 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23A65518' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Style the hero buttons to match your navbar order button */
+.btn-primary {
+    background-color: #d97e3a !important;
+    border-color: #d97e3a !important;
+    color: #FEF3D9 !important;
+}
+
+.btn-primary:hover {
+    background-color: #c06d2f !important;
+    border-color: #c06d2f !important;
+}
+
+.btn-outline-secondary {
+    border-color: #d97e3a !important;
+    color: #d97e3a !important;
+    background-color: transparent !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #d97e3a !important;
+    border-color: #d97e3a !important;
+    color: #FEF3D9 !important;
+}
+
+.d-grid.d-sm-flex {
+    gap: 2rem !important;
+}
+
+.hero-heading {
+    font-size: 48px !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    letter-spacing: 4px;
+    color: #A65518;
+}
+
+/* Make logo responsive */
+.main-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .main-logo {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-logo {
+        max-width: 85%;
+    }
+}

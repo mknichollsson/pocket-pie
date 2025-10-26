@@ -2,63 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style_nav.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FEF3D9;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-      aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FEF3D9;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Pies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Custom Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="order-btn" href="#">Order Online</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Our Pies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Custom Orders</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Locations</a>
-        </li>
-        <li class="nav-item">
-          <a class="order-btn" href="#">Order Online</a>
-        </li>
-      </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center px-4 py-3 my-3">
+                <img class="d-block mx-auto mb-4" src="images/main_logo.png" alt="" style="max-width: 300px;">
+                <h1 class="hero-heading mb-4">The Pie Revolution Starts Here</h1>
+                <div class="button-container">
+                    <button type="button" class="btn btn-primary btn-lg px-4">Order Online</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">See Our Pies</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
 
-
-  <div class="px-4 py-5 my-5 text-center justify-content-sm-center"> <img class="d-block mx-auto mb-4 main_logo" src="images/main_logo.png"
-      alt="">
-    <div class="col-lg-6 mx-auto">
-      <h1 class="hero-heading mb-4">The Pie Revolution Starts Here</h1>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
-          class="btn btn-primary btn-lg px-4 gap-3">Order Online</button> <button type="button"
-          class="btn btn-outline-secondary btn-lg px-4">See Our Pies</button> </div>
+    <div class="offers-banner-container">
+        <div class="offers-banner">
+            <div class="offers-text">
+                <h4>Latest Offers & News</h4>
+                <h3>Limited Time Flavours</h3>
+            </div>
+            <div class="offers-image">
+                <img src="images/freshly_baked.png" alt="Freshly Baked Pie">
+            </div>
+        </div>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <div class="signature-pies">
+        <div class="pies-grid">
+            <div class="pie-item-savory">
+                <img src="images/pie.png" alt="The Savory Rebel Pie" style="width: 80%; height: 80%;">
+                <h3>The Savory<br>Rebel</h3>
+                <p>steak & stout</p>
+            </div>
+
+            <div class="pie-item-text">Signature Pies</div>
+
+            <div class="pie-item-berry">
+                <img src="images/pie.png" alt="Berry Punk Pie" style="width: 80%; height: 80%;">
+                <h3>Berry Punk</h3>
+                <p>wild berry crumble</p>
+            </div>
+
+            <div class="pie-item-mac">
+                <img src="images/pie.png" alt="Mac Attack Pie" style="width: 80%; height: 80%;">
+                <h3>Mac Attack</h3>
+                <p>mac & cheese pie</p>
+            </div>
+            <div class="couple_eating_pies">
+                <img src="images/couple_eating_pies.png" alt="Couple Eating Pie">
+            </div>
+        </div>
+    </div>
+
+     <footer>
+        <p>We don't do plates. We do pockets of flavor.</p>
+        <a href="#order" class="order-btn-secondary">Order Now</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
